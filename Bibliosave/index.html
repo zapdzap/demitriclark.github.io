@@ -1,0 +1,139 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Demitri Clark - SE & UI/UX</title>
+<link href="../Webteststyling.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />  
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<script src="../portfolio.js" defer></script>
+
+<!--
+  _____  ______ __  __ _____ _______ _____  _____    _         _____ _               _____  _  __
+ |  __ \|  ____|  \/  |_   _|__   __|  __ \|_   _|  | |       / ____| |        /\   |  __ \| |/ /
+ | |  | | |__  | \  / | | |    | |  | |__) | | |    | |      | |    | |       /  \  | |__) | ' / 
+ | |  | |  __| | |\/| | | |    | |  |  _  /  | |    | |      | |    | |      / /\ \ |  _  /|  <  
+ | |__| | |____| |  | |_| |_   | |  | | \ \ _| |_   | |____  | |____| |____ / ____ \| | \ \| . \ 
+ |_____/|______|_|  |_|_____|  |_|  |_|  \_\_____|  |______|  \_____|______/_/    \_\_|  \_\_|\_\
+                                                                                                                                                                                                
+-->
+
+</head>
+<body>	
+	<nav style="background-color: #ffffff; height: 80px; position: fixed; top: 0; width: 100%; display: flex; flex-direction: row; z-index: 1000;">
+		<div style="width: 50%; display: flex; flex-direction: row; padding-left: 3vw;">
+			<img src="../Images/Logo.png" style="width: 200px; align-self: center;">
+			<a href="" target="_blank" style="text-decoration: none; color: black; margin-left: 1.5vw; align-self: center; font-size: 25px; margin-top: 6px;"><ion-icon name="information-circle-outline"></ion-icon></a>
+		</div>
+		<div style="width: 50%; display: flex; flex-direction: row-reverse; padding-right: 5vw;">
+			<button class="glow-button3" style="background-image: linear-gradient(to right, #60A5FA, #2563EB); margin-left: 1vw; height: 45px; width: 135px; align-self: center;">Contact</button>
+			<a href="Resume.pdf" target="_blank" style="text-decoration: none; color: black; margin-left: 1.5vw; align-self: center; font-weight: 500; font-size: 20px;">resume</a>
+			<a href="" style="text-decoration: none; color: black; margin-left: 1.5vw; align-self: center; font-weight: 500; font-size: 20px;">projects</a>
+			<a href="https://www.linkedin.com/in/demitri-clark-4b4b98210/" target="_blank" style="text-decoration: none; color: black; margin-left: 1.5vw; align-self: center;"><ion-icon name="logo-linkedin" style="font-size: 25px; margin-top: 0.4vw;"></ion-icon></a>
+		</div>
+	</nav>	
+
+    <button class="glow-button" style="position: relative; top: 9vw; left: 10vw; width: 10%; background-image: linear-gradient(90deg,rgb(0, 0, 0) 0%,rgb(0, 0, 0) 100%); z-index: 3;" onclick="home()">Return</button>
+
+	<div style="top: 13vw; width: 100%; position: absolute; font-size: 50px; padding-left: 12%; text-align: left; display:flex; align-content: center; z-index: 0; flex-direction: column; justify-content: center;">
+        <div style="display: flex; flex-direction: column;">
+			<p id="pop-in-text2" style="text-wrap: no-wrap;  color: transparent; margin-top: 0px; margin-bottom: 2vw;">BIBLIOSAVE</p>
+			<span id="coverMessage" style="margin-top: -2vw;">Library info system using Python & Flask RESTful API</span>
+		</div>
+        <div style="width: 40%; font-size: 1.3vw; color: #222; margin-top: 2vw; max-width: 70%; line-height: 1.6;">
+            Developed a comprehensive library information system using Python and Flask RESTful API to manage book inventories, user accounts, and borrowing records. Implemented secure user authentication and role-based access control to ensure data integrity. Designed an intuitive front-end interface with HTML, CSS, and JavaScript to enhance user experience. Integrated a PostgreSQL database for efficient data storage and retrieval, optimizing query performance for large datasets.
+        </div>
+	</div>
+
+    <div style="background-color: rgb(255, 255, 255); width: 100%; height: 27vw; display: flex; flex-direction: row-reverse; margin-top: 10vw;">
+        <div style="background-color: rgb(255, 255, 255); height: 100%; border-radius: 1vw; width: 25vw; margin-right: 12vw; display: flex; flex-direction: column; padding: 2vw;">
+            <div style="display: flex; flex-direction: column; gap: 1vw;">
+                <div>
+                    <h3 style="margin-bottom: 0.3vw; font-size: 1.3vw; color: #000;">Role</h3>
+                    <p style="margin-top: 0; font-size: 1vw; color: #333;">Sole Developer, UI/UX Designer</p>
+                </div>
+                <div>
+                    <h3 style="margin-bottom: 0.3vw; font-size: 1.3vw; color: #000;">Goal</h3>
+                    <p style="margin-top: 0; font-size: 1vw; color: #333;">
+                        To develop a robust library information system that streamlines the management of book inventories, user accounts, and borrowing records through a user-friendly interface and secure backend functionality.
+                    </p>
+                </div>
+                <div>
+                    <h3 style="margin-bottom: 0.3vw; font-size: 1.3vw; color: #000;">Relevant Skills Used</h3>
+                    <p style="margin-top: 0; font-size: 1vw; color: #333;">
+                        Python, Flask, RESTful API, HTML, CSS, JavaScript, PostgreSQL, User Authentication, UI/UX Design
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="display: flex; justify-content: center; flex-direction: row; margin-top: -1vw; padding-left: 9vw; padding-right: 9vw; margin-left: 2vw;">
+        <div style="width: 50%; display: flex; flex-direction: column; justify-content: center; align-items: center;">
+			<div class="projectcover" style="width: 43vw; height: 23vw; background-image: url(../Images/NUTRIAPP.png); border-radius: 1vw;"></div>
+		</div>
+        <div style="width: 50%; margin-left: 2vw; padding-left: 2vw; padding-right: 2vw;">
+            <h3 style="margin-bottom: 0.3vw; font-size: 1.5vw; color: #000;">Overview</h3>
+            <p style="font-size: 1.3vw; color: #222; line-height: 1.6; padding: 0vw;">
+				As the Sole Developer and UI/UX Designer for BiblioSave, I was responsible for the entire development lifecycle of the library information system. This included designing the user interface to ensure an intuitive user experience, coding the frontend functionality using HTML, CSS, and JavaScript, and implementing the backend logic with Python and Flask RESTful API. I also managed the PostgreSQL database to handle user data efficiently. This project allowed me to hone my skills in full-stack web development, database management, and user-centered design.
+        </div>
+    </div>
+
+    <div style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
+        <h3 style="margin-bottom: 0.3vw; font-size: 2.5vw; color: #000;">Personal Summary</h3>
+        <div style="width: 60%; font-size: 1.2vw; color: #222; margin-top: 1vw; line-height: 1.6; margin-bottom: 5vw;">
+            This project is in the final stages of development, with core functionalities implemented and undergoing testing. I plan to add additional features such as advanced search capabilities, user reviews, and integration with external book databases to enhance the system's usability and functionality. Stay tuned for updates as I continue to refine and expand BiblioSave.
+    <div style="background-color: #ffffff; height: 5vw; margin-bottom: 5vw; margin-left: 15vw; width: 100%; margin-top: 2vw;">
+		<div style="width: 100%; display: flex; flex-direction: column; justify-content: center; padding: 1vw;">
+			<p style="color: rgb(0, 0, 0); font-size: 1vw; font-weight: 500; margin: 0vw;">© 2025 Demitri Lucien Clark. All rights reserved.</p>
+			<p style="color: rgb(0, 0, 0); font-size: 1vw; font-weight: 300; margin: 0vw; margin-top: 0.5vw;">Designed & Developed by Demitri Clark using only Javascript, HTML, and CSS</p>
+		</div>
+	</div>
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			const paragraph = document.getElementById('pop-in-text2');
+			const text = paragraph.textContent;
+
+			// Variable to control the delay before text starts revealing (in milliseconds)
+			const initialDelay = 100; // delay before start
+
+			paragraph.innerHTML = text.split('').map(char => 
+				char === ' ' ? '<span class="space"> </span>' : `<span class="char2">${char}</span>`
+			).join('');
+
+			const charElements = paragraph.querySelectorAll('.char2');
+
+			charElements.forEach((char, index) => {
+				setTimeout(() => {
+					char.classList.add('visible');
+				}, initialDelay + index * 50); // Add initialDelay to the existing delay
+			});
+		});
+</script>	
+</body>
+</html>
+<style>
+@keyframes navDropIn {
+	0% {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+nav.drop-in {
+	animation: navDropIn 0.7s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+	const nav = document.querySelector('nav');
+	nav.classList.add('drop-in');
+});
+</script>
