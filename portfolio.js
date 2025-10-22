@@ -29,7 +29,7 @@ function Noteley(){
 }
 
 function home(){
-    window.open('../',"_self")
+    window.open('/',"_self")
 }
 
 function NUTRIAPP(){
