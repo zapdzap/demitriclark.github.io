@@ -21,23 +21,23 @@ function demovideo() {
 }
 
 function swingvideogame(){
-    window.open('Swing/index.html',"_self")
+    window.open('Swing/',"_self")
 }
 
 function Noteley(){
-    window.open('Noteley/index.html',"_self")
+    window.open('Noteley/',"_self")
 }
 
 function home(){
-    window.open('../index.html',"_self")
+    window.open('../',"_self")
 }
 
 function NUTRIAPP(){
-    window.open('NUTRIAPP/index.html',"_self")
+    window.open('NUTRIAPP/',"_self")
 }
 
 function Bibliosave(){
-    window.open('Bibliosave/index.html',"_self")
+    window.open('Bibliosave/',"_self")
 }
 
 cover.addEventListener("pointermove", (e)=>{
