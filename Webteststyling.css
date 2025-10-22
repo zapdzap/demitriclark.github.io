@@ -1,0 +1,187 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+Khudawadi&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Khudawadi&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=TASA+Orbiter:wght@400..800&display=swap');
+
+html{
+	overflow-x: hidden;
+	/* Firefox (uncomment to work in Firefox, although other properties will not work!)  */
+/** {
+  scrollbar-width: thin;
+  scrollbar-color: #7F8F94 #F2FDFF;
+}*/
+
+/* Chrome, Edge and Safari */
+*::-webkit-scrollbar {
+  height: 10px;
+  width: 10px;
+}
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: #F2FDFF;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: #F2FCFF;
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: #F2FCFF;
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: #7F8F94;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: #5F6A6E;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: #282D2E;
+}
+}
+
+body{
+    width: 100%;
+	margin: 0;
+	font-family: "Inter", sans-serif;
+    
+}
+
+
+#coverMessage{
+    width: max-content;
+    margin-left: 0px;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 1.5vw;
+    color: rgb(0, 0, 0);
+    z-Index: 5;
+    text-align: center;
+}
+
+.glow-button {
+			z-index: 1000;
+			font-size: 0.9vw;
+			margin-left: 1%;
+            border-radius: 25px;
+            font-weight: 900;
+            color: #8698cf;
+            padding: 0.65vw 1.75vw;
+            font-weight: 600;
+            color: white;
+            transition: all 0.3s ease-in-out;
+            border: 2px;
+            cursor: pointer;
+			
+        }
+
+        .glow-button:hover {
+			color: white;
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.674);
+        }
+    
+.glow-button3 {
+            width: 150px;
+			z-index: 1000;
+			font-size: 17px;
+			margin-left: 1%;
+            padding: 12px 24px;
+            border-radius: 25px;
+            font-weight: 900;
+            color: #8698cf;
+			padding: 11px 24px;
+            font-weight: 600;
+            color: white;
+            background-image: linear-gradient(to right, #60A5FA, #2563EB);
+            transition: all 0.3s ease-in-out;
+            border: 2px;
+            cursor: pointer;
+			
+        }
+
+
+
+		.pop-in-text2{
+			text-wrap: no-wrap;
+            margin: 0px;
+			transition: all 0.5s ease-in-out;	
+		}
+	
+	.char2 {
+            z-index: 2000000;
+			display: inline-block;
+			opacity: 0;
+			transform: translateY(10px) scale(0.95);
+			transition: opacity 0.8s ease-out, transform 0.8s ease-out, font-style 0.8s ease-out;
+			font-style: normal;
+
+		}
+
+	.char2.visible {
+		text-wrap: no-wrap;
+		opacity: 1;
+		transform: translateY(0) scale(1);
+		color:rgb(0, 0, 0);
+		font-size: 2.75vw;
+  		font-style: normal;
+		letter-spacing: -1px;
+  		font-weight: 800;
+		font-family: "Inter", sans-serif;
+	}
+
+a{
+	transition: all 0.1s ease-in-out;
+}
+a:hover{
+	margin-top: -0.5vw;
+}
+
+.card{
+    z-index: 4;
+    height: 100%; margin-left: 1vw; margin-right: 1vw; background-color: black; align-self: center; border-radius: 1vw; color: white; padding: 1vw; display: flex; flex-direction: column; align-content: center; text-align: center;
+    font-size: 1vw;
+    font-weight: 700;
+    transition: all 0.2s ease-in-out;
+}
+
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px -3px rgb(0, 0, 0);
+}
+
+i{
+  font-size: 3vw; margin: 0.35vw; transition: all 0.1s ease-in-out;
+}
+
+i:hover{
+  transform: scale(1.1);
+}
+
+.i{
+   margin: 0.35vw;
+   transition: all 0.1s ease-in-out; 
+}
+
+.i:hover{
+  transform: scale(1.1);
+}
+
+.projectcover{
+    background-size: 100% 105%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: all 0.3s ease-in-out;
+}
+
+.projectcover:hover{
+    background-size: 110% 115%;
+}
