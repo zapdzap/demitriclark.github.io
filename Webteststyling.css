@@ -110,12 +110,9 @@ body{
 
 
 
-		.pop-in-text2{
-			text-wrap: no-wrap;
-            margin: 0px;
-			transition: all 0.5s ease-in-out;	
-		}
-	
+		.space{
+      font-size: 2vw;
+    }
 	.char2 {
             z-index: 2000000;
 			display: inline-block;
@@ -132,9 +129,9 @@ body{
 		transform: translateY(0) scale(1);
 		color:rgb(0, 0, 0);
 		font-size: 2.75vw;
-  		font-style: normal;
+  	font-style: normal;
 		letter-spacing: -1px;
-  		font-weight: 800;
+  	font-weight: 800;
 		font-family: "Inter", sans-serif;
 	}
 

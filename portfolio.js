@@ -9,11 +9,7 @@ function contact() {
 }
 
 function projects() {
-    window.scrollBy({
-        top: window.innerHeight * 1,
-        left: 0,
-        behavior: 'smooth'
-    });
+   window.open('/Projects/',"_self")
 }
 
 function demovideo() {
