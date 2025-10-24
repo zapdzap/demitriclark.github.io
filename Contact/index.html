@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Demitri Clark - SE & UI/UX</title>
+<link href="../Webteststyling.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />  
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+<script src="../portfolio.js" defer></script>
+
+<!--
+  _____  ______ __  __ _____ _______ _____  _____    _         _____ _               _____  _  __
+ |  __ \|  ____|  \/  |_   _|__   __|  __ \|_   _|  | |       / ____| |        /\   |  __ \| |/ /
+ | |  | | |__  | \  / | | |    | |  | |__) | | |    | |      | |    | |       /  \  | |__) | ' / 
+ | |  | |  __| | |\/| | | |    | |  |  _  /  | |    | |      | |    | |      / /\ \ |  _  /|  <  
+ | |__| | |____| |  | |_| |_   | |  | | \ \ _| |_   | |____  | |____| |____ / ____ \| | \ \| . \ 
+ |_____/|______|_|  |_|_____|  |_|  |_|  \_\_____|  |______|  \_____|______/_/    \_\_|  \_\_|\_\
+                                                                                                                                                                                                
+-->
+
+<!--1-->
+
+</head>
+<body>	
+	<nav style="background-color: #ffffff; height: 80px; position: fixed; top: 0; width: 100%; display: flex; flex-direction: row; z-index: 999;">
+		<div style="width: 50%; display: flex; flex-direction: row; padding-left: 3vw;">
+			<img src="../Images/Logo.png" onclick="home()" style="width: 200px; align-self: center;">
+		
+		</div>
+		<div style="width: 50%; display: flex; flex-direction: row-reverse; padding-right: 5vw;">
+			<button class="glow-button3" style="background-image: linear-gradient(to right, #60A5FA, #2563EB); margin-left: 1vw; height: 45px; width: 135px; align-self: center;" onclick="contact()">Contact</button>
+						<a href="https://www.linkedin.com/in/demitriclark" target="_blank" style="text-decoration: none; color: black; margin-left: 1.5vw; margin-right: 0.75vw; align-self: center;"><ion-icon name="logo-linkedin" style="font-size: 27px; margin-top: 0.4vw;"></ion-icon></a>
+			<a href="../Resume.pdf" target="_blank" style="text-decoration: none; color: black; margin-left: 1.5vw; align-self: center; font-weight: 500; font-size: 20px;">Resume</a>
+			<a style="text-decoration: none; color: black; margin-left: 1.5vw; align-self: center; font-weight: 500; font-size: 20px;" onclick="projects()">Projects</a>
+		</div>
+	</nav>	
+	
+	<div style="top: 10vw; width: 100%; position: absolute; font-size: 50px; text-align: left; display:flex; align-content: center; z-index: 0; flex-direction: column; justify-content: center;">
+		<div style="display: flex; flex-direction: column; align-items: center;">
+			<p id="pop-in-text2" style="text-wrap: no-wrap;  color: transparent; margin-top: 0px; margin-bottom: 2vw;">Demitri Lucien Clark</p>
+			<p id="coverMessage" style="margin-top: -1vw; width: 60%;">Software Engineering, Web Development, UI/UX Design, 3D Modeling. I am passionate about advancing my skills in Software Development and creating user functional applications. I am seeking internship opportunities for Summer 2026, and open and freelance projects.</p>
+			<div style="display: flex; flex-direction: row; gap: 1vw; margin-top: -1vw; font-size: 1vw;">
+				<div style="margin-top: 1vw; display: flex; flex-direction: row; gap: 0.2vw; align-items: center;"><ion-icon name="time-outline"></ion-icon>24h Response time</div>
+				<div style="margin-top: 1vw; display: flex; flex-direction: row; gap: 0.2vw; align-items: center;"><ion-icon name="chatbox-outline"></ion-icon>Open to opportunities</div>
+				<div style="margin-top: 1vw; display: flex; flex-direction: row; gap: 0.2vw; align-items: center;"><ion-icon name="location-outline"></ion-icon>Open to relocation</div>		
+			</div>
+			<button class="glow-button" style=" width: 10%; background-image: linear-gradient(90deg,rgb(0, 160, 59) 0%,rgb(66, 208, 9) 100%); z-index: 3; margin-left: -0.25vw; margin-top: 2vw;" onclick="home()">Start Email</button>
+		</div>
+	</div>
+
+	<div class="contactmain" style="background-color: rgb(255, 255, 255); width: 100%; height: 27vw; display: flex; flex-direction: row-reverse; justify-content: space-between;">
+        <div style="background-color: rgb(255, 255, 255); height: 100%; border-radius: 1vw; width: 25vw; margin-right: 12vw; display: flex; flex-direction: column; padding: 2vw;">
+            <div style="display: flex; flex-direction: column; gap: 1vw;">
+                <div>
+                    <h3 style="margin-bottom: 2vw; font-size: 1.3vw; color: #000;">Profile</h3>
+                    <div style="display: flex; flex-direction: row; gap: 0.5vw;">
+						<img src="../Images/Headshot.png" style="width: 5vw; height: 5vw; border-radius: 0.5vw;"/>
+						<div style="display: flex; flex-direction: column; gap: 0.2vw; width: 30vw;">
+							<div style="font-size: 1vw; font-weight: 600;">Demitri Lucien Clark</div>
+							<div style="font-size: 0.75vw; font-weight: 400;">Software Engineer & UI/UX Designer</div>
+							<div style="font-weight: 500; font-size: 1vw;">Open to internship opportunities for Summer 2026</div>
+						</div>
+					</div>
+					<div style="display: flex; flex-direction: row; gap: 1vw; justify-content: left; font-size: 0.75vw; font-weight: 500;">
+						<div style="margin-top: 1vw; padding: 0.5vw; width: 10vw; color: #fff; border-radius: 2vw; background-color: #000000; display: flex; flex-direction: row; gap: 1vw; align-items: center; justify-content: center;"><ion-icon name="logo-github"></ion-icon>Github</div>
+						<div style="margin-top: 1vw; padding: 0.5vw; width: 10vw; color: #fff; border-radius: 2vw; background-color: #000000; display: flex; flex-direction: row; gap: 1vw; align-items: center; justify-content: center;"><ion-icon name="logo-linkedin"></ion-icon>LinkedIn</div>
+					</div>
+                </div>
+                <div style="display: flex; flex-direction: column; gap: 1vw;">
+                    <h3 style="margin-bottom: 0.3vw; font-size: 1.3vw; color: #000;">Contact Information</h3>
+						<div style="display: flex; flex-direction: row;">
+							<span style="margin-right: 0.5vw; align-self: center;"><ion-icon name="mail-outline" style="font-size: 1.75vw;"></ion-icon></span>
+							<div style="display: flex; flex-direction: column; gap: 0vw; justify-content: flex-start; font-size: 1vw;">
+								<span style="font-weight: 600;">Email</span>
+								<span>dlc3767@rit.edu</span>
+							</div>
+							
+						</div>
+						<div style="display: flex; flex-direction: row;">
+							<span style="margin-right: 0.5vw; align-self: center;"><ion-icon name="call-outline" style="font-size: 1.75vw;"></ion-icon></span>
+							<div style="display: flex; flex-direction: column; gap: 0vw; justify-content: flex-start; font-size: 1vw;">
+								<span style="font-weight: 600;">Phone</span>
+								<span>+1 (323) 351-5341</span>
+							</div>
+							
+						</div>
+                </div>
+                <div>
+                    <h3 style="margin-bottom: 0.3vw; font-size: 1.3vw; color: #000;">Current Status</h3>
+                    <div style="display: flex; flex-direction: row; margin-top: 1vw;">
+						<span style="margin-right: 0.5vw; align-self: center;"><ion-icon name="school-outline" style="font-size: 1.75vw;"></ion-icon></span>
+						<div style="display: flex; flex-direction: column; gap: 0vw; justify-content: flex-start; font-size: 1vw;">
+							<span style="font-weight: 600;">Rochester Institute of Technology</span>
+							<span>Bachelor of Science in Software Engineering, Class of 2026</span>
+						</div>
+					</div>
+                </div>
+            </div>
+        </div>
+		<div style="margin-left: 15%; margin-top: 2.5vw;">
+			<form action="https://api.web3forms.com/submit" method="POST" style="display: flex; flex-direction: column;;">
+				<h3 style="font-size: 1.5vw;">Send me a message</h3>
+				<input type="hidden" name="access_key" value="9606dcfb-06cf-447b-8d3f-e30a9de77298">
+				<input class="contactform" type="text" name="name" placeholder="Your Name" required style="width: 40vw; height: 3vw; margin-bottom: 1vw; font-size: 1vw;"/>
+				<input class="contactform" type="email" name="email" placeholder="Your Email" required style="width: 40vw; height: 3vw; margin-bottom: 1vw; font-size: 1vw;"/>
+				<textarea class="contactform" name="message" placeholder="Your Message" required style="width: 40vw; height: 10vw; margin-bottom: 1vw; font-size: 1vw;"></textarea>
+				<button class="glow-button" type="submit" class="glow-button3" style="width: 10vw; height: 3vw; font-size: 1vw; background-color: #000;">Send</button>
+			</form>
+
+		</div>
+    </div>
+
+	<div style="background-color: #ffffff; height: 5vw; margin-bottom: 5vw; margin-left: 15vw; width: 100%; margin-top: 10vw;">
+		<div style="width: 100%; display: flex; flex-direction: column; justify-content: center; padding: 1vw;">
+			<p style="color: rgb(0, 0, 0); font-size: 1vw; font-weight: 500; margin: 0vw;">© 2025 Demitri Lucien Clark. All rights reserved.</p>
+			<p style="color: rgb(0, 0, 0); font-size: 1vw; font-weight: 300; margin: 0vw; margin-top: 0.5vw;">Designed & Developed by Demitri Clark using only Javascript, HTML, and CSS</p>
+		</div>
+	</div>
+
+	
+	
+
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script>
+		document.addEventListener('DOMContentLoaded', () => {
+			const paragraph = document.getElementById('pop-in-text2');
+			const text = paragraph.textContent;
+
+			// Variable to control the delay before text starts revealing (in milliseconds)
+			const initialDelay = 100; // delay before start
+
+			paragraph.innerHTML = text.split('').map(char => 
+				char === ' ' ? '<span class="space"> </span>' : `<span class="char2">${char}</span>`
+			).join('');
+
+			const charElements = paragraph.querySelectorAll('.char2');
+
+			charElements.forEach((char, index) => {
+				setTimeout(() => {
+					char.classList.add('visible');
+				}, initialDelay + index * 50); // Add initialDelay to the existing delay
+			});
+		});
+</script>	
+</body>
+</html>
+<style>
+@keyframes navDropIn {
+	0% {
+		transform: translateY(-100%);
+		opacity: 0;
+	}
+	100% {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+nav.drop-in {
+	animation: navDropIn 0.7s cubic-bezier(0.23, 1, 0.32, 1) forwards;
+}
+</style>
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+	const nav = document.querySelector('nav');
+	nav.classList.add('drop-in');
+});
+</script>

@@ -1,7 +1,7 @@
 cover = document.getElementById("cover");
 const interval = setInterval(() => { const viewer = document.querySelector('spline-viewer'); if (viewer && viewer.shadowRoot) { const logo = viewer.shadowRoot.querySelector('#logo'); if (logo) { logo.remove(); console.log("Logo removed!"); clearInterval(interval); } } }, 500);
 
-function contact() {
+function openemail() {
     const recipient = "dlc3767@rit.edu";
     const subject = "Portfolio Inquiry";
     const mailtoLink = `mailto:${recipient}?subject=${encodeURIComponent(subject)}`;
@@ -14,6 +14,10 @@ function projects() {
 
 function demovideo() {
     window.open('https://www.youtube.com/watch?v=dXBfak1hqYU', '_blank');
+}
+
+function contact(){
+    window.open('/Contact/',"_self")
 }
 
 function swingvideogame(){

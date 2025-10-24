@@ -182,3 +182,20 @@ i:hover{
 .projectcover:hover{
     background-size: 110% 115%;
 }
+
+.contactmain{
+    margin-top: 30vw;
+
+    @media (max-width: 768px) {
+        margin-top: 35vw;
+    }
+}
+
+.contactform{
+    font-size: 1vw;
+    padding: 1vw;
+    border: 1px solid #ccc;
+    border-radius: 0.75vw;
+    resize: vertical;
+    font-family: "Inter", sans-serif;
+}
