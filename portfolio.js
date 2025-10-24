@@ -16,6 +16,14 @@ function demovideo() {
     window.open('https://www.youtube.com/watch?v=dXBfak1hqYU', '_blank');
 }
 
+function linkedin(){
+    window.open('https://www.linkedin.com/in/demitriclark/', '_blank');
+}
+
+function github(){
+    window.open('https://github.com/zapdzap', '_blank');
+}
+
 function contact(){
     window.open('/Contact/',"_self")
 }
