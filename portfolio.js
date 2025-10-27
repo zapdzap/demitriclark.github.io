@@ -9,7 +9,7 @@ function openemail() {
 }
 
 function projects() {
-   window.open('/Projects/',"_self")
+   window.open('https://demitriclark.com/Projects/',"_self")
 }
 
 function demovideo() {
@@ -25,15 +25,15 @@ function github(){
 }
 
 function contact(){
-    window.open('/Contact/',"_self")
+    window.open('https://demitriclark.com/Contact/',"_self")
 }
 
 function swingvideogame(){
-    window.open('Swing/',"_self")
+    window.open('https://demitriclark.com/Swing/',"_self")
 }
 
 function Noteley(){
-    window.open('Noteley/',"_self")
+    window.open('https://demitriclark.com/Noteley/',"_self")
 }
 
 function home(){
@@ -41,11 +41,11 @@ function home(){
 }
 
 function NUTRIAPP(){
-    window.open('NUTRIAPP/',"_self")
+    window.open('https://demitriclark.com/NUTRIAPP/',"_self")
 }
 
 function Bibliosave(){
-    window.open('Bibliosave/',"_self")
+    window.open('https://demitriclark.com/Bibliosave/',"_self")
 }
 
 cover.addEventListener("pointermove", (e)=>{
