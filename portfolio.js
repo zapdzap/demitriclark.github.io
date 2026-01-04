@@ -33,7 +33,7 @@ function swingvideogame(){
 }
 
 function Noteley(){
-    window.open('https://demitriclark.com/Noteley/',"_self")
+    window.open('https://demitriclark.com/Carbox/',"_self")
 }
 
 function home(){
