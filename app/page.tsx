@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import type { Variants } from "framer-motion";
-import Image from "next/image";
 import Script from "next/script";
 import { useState, type MouseEvent } from "react";
 
@@ -230,13 +229,12 @@ export default function Home() {
 
         <div className="relative ml-auto max-w-[440px] self-center [@media(max-aspect-ratio:3/4)]:mx-auto">
           <div className="moss-panel mx-auto mb-4 w-[82%] overflow-hidden rounded-[1.4rem] border bg-paper/90 p-1.5 shadow-soft lg:w-[78%]">
-            <Image
-              src="/Headshot.png"
+            <img
+              src="Headshot.png"
               alt="Portrait"
               width={800}
               height={800}
               className="aspect-square h-auto w-full rounded-[1rem] object-cover"
-              priority
             />
           </div>
 
@@ -261,8 +259,8 @@ export default function Home() {
             <div className="flex flex-col gap-4">
               <div className="hero-card moss-panel mx-auto flex w-[82%] items-center gap-4 py-3 lg:mx-0 lg:w-full">
                 <div className="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-ink/10 bg-white/60 p-0 shadow-sm">
-                  <Image
-                    src="/348s.png"
+                  <img
+                    src="348s.png"
                     alt="Farm Fresh logo"
                     width={96}
                     height={96}
@@ -279,8 +277,8 @@ export default function Home() {
               </div>
               <div className="hero-card moss-panel mx-auto flex w-[82%] items-center gap-4 py-3 lg:mx-0 lg:w-full">
                 <div className="flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-2xl border border-ink/10 bg-white/60 p-0 shadow-sm">
-                  <Image
-                    src="/RIT_seal.jpg"
+                  <img
+                    src="RIT_seal.jpg"
                     alt="RIT seal"
                     width={96}
                     height={96}
