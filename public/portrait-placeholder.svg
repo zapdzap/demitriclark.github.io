@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Portrait placeholder">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#213229"/>
+      <stop offset="55%" stop-color="#15211b"/>
+      <stop offset="100%" stop-color="#0d1411"/>
+    </linearGradient>
+    <radialGradient id="halo" cx="38%" cy="24%" r="50%">
+      <stop offset="0%" stop-color="#6f9d75" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#6f9d75" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="1100" fill="url(#bg)"/>
+  <rect width="900" height="1100" fill="url(#halo)"/>
+  <ellipse cx="450" cy="960" rx="360" ry="180" fill="#0a0f0c" opacity="0.72"/>
+  <path d="M285 770c22-152 102-236 165-236s143 84 165 236" fill="#24362c"/>
+  <ellipse cx="450" cy="435" rx="132" ry="168" fill="#2f4739"/>
+  <path d="M320 430c18-118 94-193 130-193 37 0 112 75 130 193-16-42-43-83-68-106-26-24-47-32-62-32-15 0-37 8-62 32-25 23-52 64-68 106z" fill="#16241d"/>
+  <rect x="74" y="74" width="752" height="952" rx="36" fill="none" stroke="#6f9d75" stroke-opacity="0.34" stroke-width="6"/>
+  <text x="450" y="1030" text-anchor="middle" font-size="36" font-family="Georgia, serif" fill="#d2e4d2" opacity="0.9">Replace with your portrait</text>
+</svg>
