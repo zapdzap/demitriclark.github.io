@@ -193,7 +193,10 @@ export default function Home() {
             Software Engineer
           </p>
           <h1 className="font-display text-4xl leading-[0.97] tracking-tight text-ink sm:text-5xl lg:text-6xl">
-            I make <span className="moss-highlight">apps</span> that solve problems
+            Building <span className="moss-highlight">software</span>. 
+          </h1>
+          <h1 className="font-display mt-4 text-4xl leading-[0.97] tracking-tight text-ink sm:text-3xl lg:text-3xl">
+            Solving interesting problems
           </h1>
         
           <div className="mt-7 flex flex-wrap justify-start gap-3 [@media(max-aspect-ratio:3/4)]:justify-center lg:justify-start">
